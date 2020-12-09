@@ -11,6 +11,11 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
+### Installing Python 3.6 and Pip3
+```sh
+sudo apt install python3-pip
+```
+
 ### Installing Apache and WSGI
 First, to install Apache you'll need to run:
 ```sh

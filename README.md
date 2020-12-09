@@ -86,7 +86,7 @@ $ sudo a2ensite FlaskApp
 $ service apache2 reload
 ```
 
-### Get home from GitHub
+### Get code from GitHub
 Clone code from GitHub:
 ```sh
 $ sudo git clone https://github.com/username/RepositoryName.git

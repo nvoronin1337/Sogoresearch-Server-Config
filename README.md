@@ -108,5 +108,6 @@ The application is now located in /var/www/html/EmojisetWebsite
 There is a requirements.txt file in /var/www/html/EmojisetWebsite
 ```sh
 $ cd /var/www/html/EmojisetWebsite
+$ sudo apt-get install libtool
 $ sudo pip3 install -r requirements.txt
 ```

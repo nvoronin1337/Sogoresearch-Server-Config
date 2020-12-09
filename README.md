@@ -132,6 +132,13 @@ Adding a new worker for large dataset:
 $ rq worker long
 ```
 
+### Giving some files Read/Write access
+```sh
+$ cd /var/www/html/EmojisetWebsite/
+$ sudo chmod a+rwx stream_large.py
+$ cd /emojiset_app
+$ sudo chmod a+rwx emojiset.sqlite
+```
 Restart Apache:
 ```sh
 $ sudo service apache2 restart

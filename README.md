@@ -103,3 +103,10 @@ Clone code from GitHub:
 $ sudo git clone https://github.com/username/RepositoryName.git
 ```
 The application is now located in /var/www/html/EmojisetWebsite
+
+### Install Python Libraries
+There is a requirements.txt file in /var/www/html/EmojisetWebsite
+```sh
+$ cd /var/www/html/EmojisetWebsite
+$ sudo pip3 install -r requirements.txt
+```

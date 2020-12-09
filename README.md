@@ -108,7 +108,11 @@ $ sudo apt-get install autoconf
 $ sudo apt-get install bison flex
 $ sudo pip3 install -r requirements.txt
 ```
-
+### Install Redis Server
+```sh
+$ sudo apt-get install redis-server
+$ redis-server --daemonize yes
+```
 Restart Apache:
 ```sh
 $ sudo service apache2 restart

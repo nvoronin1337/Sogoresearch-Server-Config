@@ -37,4 +37,7 @@ Clone code from GitHub:
 ```sh
 $ sudo git clone https://github.com/username/RepositoryName.git
 ```
+The application is now located in /var/www/html/EmojisetWebsite
+
+
 

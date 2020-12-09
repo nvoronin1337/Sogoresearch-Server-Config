@@ -113,6 +113,25 @@ $ sudo pip3 install -r requirements.txt
 $ sudo apt-get install redis-server
 $ redis-server --daemonize yes
 ```
+
+### Create Redis Queue Workers using Screen
+```sh
+$ sudo apt-get install screen
+```
+Create a new screen for each worker. You will need workers for small dataset page and for large dataset page.
+```sh
+$ screen -S screen_name
+$ cd /var/www/html/EmojisetWebsite
+```
+Adding a new worker for small dataset:
+```sh
+$ rq worker small
+```
+Adding a new worker for large dataset:
+```sh
+$ rq worker long
+```
+
 Restart Apache:
 ```sh
 $ sudo service apache2 restart

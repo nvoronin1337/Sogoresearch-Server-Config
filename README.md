@@ -28,8 +28,13 @@ $ sudo a2enmod wsgi
 ```
 
 ### Get the code
-Next we are ready to set up our Flask environment.
+Move to the directory where our application will be located:
 ```sh
 $ cd /var/www/html/
+```
+
+Clone code from GitHub:
+```sh
+$ sudo git clone https://github.com/username/RepositoryName.git
 ```
 

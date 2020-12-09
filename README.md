@@ -109,5 +109,6 @@ There is a requirements.txt file in /var/www/html/EmojisetWebsite
 ```sh
 $ cd /var/www/html/EmojisetWebsite
 $ sudo apt-get install libtool
+$ sudo apt-get install autoconf
 $ sudo pip3 install -r requirements.txt
 ```

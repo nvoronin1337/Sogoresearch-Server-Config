@@ -27,12 +27,29 @@ Once we have that, we need to make sure we've enabled WSGI with the following:
 $ sudo a2enmod wsgi
 ```
 
-### Get the code
+### Configure WSGI
 Move to the directory where our application will be located:
 ```sh
 $ cd /var/www/html/
 ```
+Create a wsgi config file
+```sh
+$ sudo nano flaskapp.wsgi
+```
 
+Within the wsgi file, enter:
+```sh
+#!/usr/bin/python
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/html/EmojisetWebsite")
+
+from emojiset_app import app as application
+application.secret_key = 'fhkjdskjgf(anything)’
+```
+
+### Get home from GitHub
 Clone code from GitHub:
 ```sh
 $ sudo git clone https://github.com/username/RepositoryName.git

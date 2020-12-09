@@ -27,9 +27,8 @@ Once we have that, we need to make sure we've enabled WSGI with the following:
 $ sudo a2enmod wsgi
 ```
 
-It is probably already enabled from the installation, but it is a good idea to make sure.
+### Get the code
 Next we are ready to set up our Flask environment.
-Run:
 ```sh
 $ cd /var/www/html/
 ```

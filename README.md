@@ -92,11 +92,6 @@ from emojiset_app import app as application
 application.secret_key = 'fhkjdskjgf(anything)’
 ```
 
-Restart Apache:
-```sh
-$ sudo service apache2 restart
-```
-
 ### Get code from GitHub
 Clone code from GitHub:
 ```sh
@@ -112,4 +107,9 @@ $ sudo apt-get install libtool
 $ sudo apt-get install autoconf
 $ sudo apt-get install bison flex
 $ sudo pip3 install -r requirements.txt
+```
+
+Restart Apache:
+```sh
+$ sudo service apache2 restart
 ```
